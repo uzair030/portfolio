@@ -71,10 +71,16 @@ body{
 }
 
 
-@media  (max-width:576px) {
-  .section1{
-      flex-direction: column;
-      height: 25vh;
+@media (max-width: 700px) {
+  .nav-link {
+    display: none;
+    flex-direction: column;
+    background: #444;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
   }
 }
 
@@ -306,9 +312,9 @@ body{
   }
 }
 
-@media (max-width: 631px)  {
+@media (max-width: 764px)  {
   .services-section{
-    height: 180vh;
+    height: 120vh;
   }
   .service-card{
     width: 450px;
